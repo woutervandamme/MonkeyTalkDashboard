@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<detail  generated="2014-12-11 13:22:30.441 CET" projectPath="C:\Users\klaas\Desktop\monkeytalk\Hackathon" agent="AndroidEmulator v2.0.1_257 - 2014-01-29 08:31:55 MST" runner="MonkeyTalk IDE v2.0.9_533 - 2014-09-26 15:13:11 MDT">
+    <script  comp="Script" id="FormTest.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script FormTest.mt Run %thinktime=500 %timeout=2000" idx="1" start="1418300546694" stop="1418300550139" duration="3.445" result="ok">
+        <cmd  comp="Vars" id="*" action="Define" args="dropdown checkbox radiobutton slider" mods="%thinktime=500 %timeout=2000" raw="Vars * Define dropdown checkbox radiobutton slider %thinktime=500 %timeout=2000" idx="2" start="1418300546787" stop="1418300546787" duration="0.0" result="ok">
+        </cmd>
+        <cmd  comp="ItemSelector" id="myDropdown" action="select" args="Carbon" mods="%thinktime=500 %timeout=2000" raw="ItemSelector myDropdown select Carbon %thinktime=500 %timeout=2000" idx="3" start="1418300546787" stop="1418300547371" duration="0.584" result="ok">
+        </cmd>
+        <cmd  comp="CheckBox" id="mySwitch" action="off" mods="%thinktime=500 %timeout=2000" raw="CheckBox mySwitch off %thinktime=500 %timeout=2000" idx="4" start="1418300547371" stop="1418300547911" duration="0.54" result="ok">
+        </cmd>
+        <cmd  comp="ButtonSelector" id="myRadios" action="select" args="B" mods="%thinktime=500 %timeout=2000" raw="ButtonSelector myRadios select B %thinktime=500 %timeout=2000" idx="5" start="1418300547911" stop="1418300548442" duration="0.531" result="ok">
+        </cmd>
+        <cmd  comp="Slider" id="mySlider" action="select" args="50" mods="%thinktime=500 %timeout=2000" raw="Slider mySlider select 50 %thinktime=500 %timeout=2000" idx="6" start="1418300548442" stop="1418300548982" duration="0.54" result="ok">
+        </cmd>
+        <cmd  comp="Slider" id="mySlider" action="Verify" args="50 value" mods="%thinktime=500 %timeout=2000" raw="Slider mySlider Verify 50 value %thinktime=500 %timeout=2000" idx="7" start="1418300548982" stop="1418300549523" duration="0.541" result="ok">
+        </cmd>
+        <cmd  comp="Label" id="*" action="Verify" args="&quot;Carbon | off | B | 50&quot;" mods="%thinktime=500 %timeout=2000" raw="Label * Verify &quot;Carbon | off | B | 50&quot; %thinktime=500 %timeout=2000" idx="8" start="1418300549523" stop="1418300550139" duration="0.616" result="ok">
+        </cmd>
+    </script>
+</detail>

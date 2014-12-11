@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<detail  generated="2014-12-11 15:15:10.274 CET" projectPath="C:\Users\klaas\Desktop\monkeytalk\Hackathon" agent="AndroidEmulator v2.0.1_257 - 2014-01-29 08:31:55 MST" runner="MonkeyTalk IDE v2.0.9_533 - 2014-09-26 15:13:11 MDT">
+    <script  comp="Script" id="LoginRegularTestShortPass.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script LoginRegularTestShortPass.mt Run %thinktime=500 %timeout=2000" idx="1" start="1418307299011" stop="1418307308789" duration="9.778" result="ok">
+        <cmd  comp="TabBar" id="*" action="select" args="login" mods="%thinktime=500 %timeout=2000" raw="TabBar * select login %thinktime=500 %timeout=2000" idx="2" start="1418307300468" stop="1418307301015" duration="0.547" result="ok">
+        </cmd>
+        <cmd  comp="Input" id="username" action="enterText" args="baas" mods="%thinktime=500 %timeout=2000" raw="Input username enterText baas %thinktime=500 %timeout=2000" idx="3" start="1418307301015" stop="1418307301544" duration="0.529" result="ok">
+        </cmd>
+        <cmd  comp="Input" id="password" action="enterText" args="a" mods="%thinktime=500 %timeout=2000" raw="Input password enterText a %thinktime=500 %timeout=2000" idx="4" start="1418307301544" stop="1418307302075" duration="0.531" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="LOGIN" action="Tap" mods="%thinktime=500 %timeout=2000" raw="Button LOGIN Tap %thinktime=500 %timeout=2000" idx="5" start="1418307302075" stop="1418307304122" duration="2.047" result="ok">
+        </cmd>
+        <cmd  comp="Label" id="*" action="Verify" args="&quot;Welcome, baas!&quot;" mods="%shouldfail=true %thinktime=500 %timeout=2000 %screenshotonerror=false" raw="Label * Verify &quot;Welcome, baas!&quot; %shouldfail=true %thinktime=500 %timeout=2000 %screenshotonerror=false" idx="6" start="1418307304122" stop="1418307308218" duration="4.096" result="ok">
+            <msg><![CDATA[expected failure : Expected "Welcome, baas!", but found [login, forms, hierarchy, web, Login, ?, baas, a, Sorry! Password must be 4 or more characters., LOGIN]]]>
+            </msg>
+        </cmd>
+        <cmd  comp="TabBar" id="*" action="select" args="login" mods="%thinktime=500 %timeout=2000" raw="TabBar * select login %thinktime=500 %timeout=2000" idx="7" start="1418307308219" stop="1418307308789" duration="0.57" result="ok">
+        </cmd>
+    </script>
+</detail>

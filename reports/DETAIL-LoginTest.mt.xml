@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<detail  generated="2014-12-11 13:26:39.358 CET" projectPath="C:\Users\klaas\Desktop\monkeytalk\Hackathon" agent="AndroidEmulator v2.0.1_257 - 2014-01-29 08:31:55 MST" runner="MonkeyTalk IDE v2.0.9_533 - 2014-09-26 15:13:11 MDT">
+    <script  comp="Script" id="LoginTest.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script LoginTest.mt Run %thinktime=500 %timeout=2000" idx="1" start="1418300790160" stop="1418300799085" duration="8.925" result="ok">
+        <cmd  comp="Vars" id="*" action="Define" args="user pass" mods="%thinktime=500 %timeout=2000" raw="Vars * Define user pass %thinktime=500 %timeout=2000" idx="2" start="1418300790432" stop="1418300790432" duration="0.0" result="ok">
+        </cmd>
+        <cmd  comp="Input" id="username" action="tap" mods="%thinktime=500 %timeout=2000" raw="Input username tap %thinktime=500 %timeout=2000" idx="3" start="1418300790432" stop="1418300790986" duration="0.554" result="ok">
+        </cmd>
+        <cmd  comp="Input" id="username" action="enterText" args="&lt;user&gt;" mods="%thinktime=500 %timeout=2000" raw="Input username enterText &lt;user&gt; %thinktime=500 %timeout=2000" idx="4" start="1418300790987" stop="1418300791509" duration="0.522" result="ok">
+        </cmd>
+        <cmd  comp="Input" id="password" action="enterText" args="&lt;pass&gt;" mods="%thinktime=500 %timeout=2000" raw="Input password enterText &lt;pass&gt; %thinktime=500 %timeout=2000" idx="5" start="1418300791509" stop="1418300792039" duration="0.53" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="LOGIN" action="Tap" mods="%thinktime=500 %timeout=2000" raw="Button LOGIN Tap %thinktime=500 %timeout=2000" idx="6" start="1418300792039" stop="1418300794073" duration="2.034" result="ok">
+        </cmd>
+        <cmd  comp="Label" id="*" action="Verify" args="&quot;Welcome, &lt;user&gt;!&quot;" mods="%thinktime=500 %timeout=2000" raw="Label * Verify &quot;Welcome, &lt;user&gt;!&quot; %thinktime=500 %timeout=2000" idx="7" start="1418300794073" stop="1418300797053" duration="2.98" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="LOGOUT" action="Tap" mods="%thinktime=500 %timeout=2000" raw="Button LOGOUT Tap %thinktime=500 %timeout=2000" idx="8" start="1418300797053" stop="1418300799085" duration="2.032" result="ok">
+        </cmd>
+    </script>
+</detail>

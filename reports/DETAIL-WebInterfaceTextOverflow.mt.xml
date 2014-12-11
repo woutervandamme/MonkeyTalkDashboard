@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<detail  generated="2014-12-11 12:04:11.420 CET" projectPath="C:\Users\klaas\Desktop\monkeytalk\Hackathon" agent="AndroidEmulator v2.0.1_257 - 2014-01-29 08:31:55 MST" runner="MonkeyTalk IDE v2.0.9_533 - 2014-09-26 15:13:11 MDT">
+    <script  comp="Script" id="WebInterfaceTextOverflow.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script WebInterfaceTextOverflow.mt Run %thinktime=500 %timeout=2000" idx="1" start="1418295844829" stop="1418295851295" duration="6.466" screenshot="screenshots/screenshot_2014-12-11_120411.png" result="failure">
+        <script  comp="Script" id="Logintest.mt" action="run" args="wouter klaas" mods="%thinktime=500 %timeout=2000" raw="Script Logintest.mt run wouter klaas %thinktime=500 %timeout=2000" idx="2" start="1418295845064" stop="1418295851295" duration="6.231" screenshot="screenshots/screenshot_2014-12-11_120411.png" result="failure">
+            <cmd  comp="Vars" id="*" action="Define" args="user=user pass=pass" mods="%thinktime=500 %timeout=2000" raw="Vars * Define user=user pass=pass %thinktime=500 %timeout=2000" idx="3" start="1418295845158" stop="1418295845158" duration="0.0" result="ok">
+            </cmd>
+            <cmd  comp="Input" id="username" action="tap" mods="%thinktime=500 %timeout=2000" raw="Input username tap %thinktime=500 %timeout=2000" idx="4" start="1418295845158" stop="1418295845720" duration="0.562" result="ok">
+            </cmd>
+            <cmd  comp="Input" id="username" action="enterText" args="wouter" mods="%thinktime=500 %timeout=2000" raw="Input username enterText wouter %thinktime=500 %timeout=2000" idx="5" start="1418295845720" stop="1418295846251" duration="0.531" result="ok">
+            </cmd>
+            <cmd  comp="Input" id="password" action="enterText" args="${pass)" mods="%thinktime=500 %timeout=2000" raw="Input password enterText ${pass) %thinktime=500 %timeout=2000" idx="6" start="1418295846251" stop="1418295846798" duration="0.547" result="ok">
+            </cmd>
+            <cmd  comp="Button" id="login" action="Tap" mods="%thinktime=500 %timeout=2000" raw="Button login Tap %thinktime=500 %timeout=2000" idx="7" start="1418295846798" stop="1418295851295" duration="4.497" screenshot="screenshots/screenshot_2014-12-11_120411.png" result="failure">
+                <msg><![CDATA[Unable to find Button(login)]]>
+                </msg>
+            </cmd>
+        </script>
+    </script>
+</detail>

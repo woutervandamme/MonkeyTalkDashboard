@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<detail  generated="2014-12-11 13:27:36.770 CET" projectPath="C:\Users\klaas\Desktop\monkeytalk\Hackathon" agent="AndroidEmulator v2.0.1_257 - 2014-01-29 08:31:55 MST" runner="MonkeyTalk IDE v2.0.9_533 - 2014-09-26 15:13:11 MDT">
+    <script  comp="Script" id="tappyTap.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script tappyTap.mt Run %thinktime=500 %timeout=2000" idx="1" start="1418300853129" stop="1418300856635" duration="3.506" screenshot="screenshots/screenshot_2014-12-11_132736.png" result="failure">
+        <cmd  comp="Button" id="LOGIN" action="swipe" args="down" mods="%thinktime=500 %timeout=2000" raw="Button LOGIN swipe down %thinktime=500 %timeout=2000" idx="2" start="1418300853400" stop="1418300856633" duration="3.233" screenshot="screenshots/screenshot_2014-12-11_132736.png" result="failure">
+            <msg><![CDATA[Unable to find Button(LOGIN)]]>
+            </msg>
+        </cmd>
+    </script>
+</detail>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<detail  generated="2014-12-11 15:21:08.285 CET" projectPath="C:\Users\klaas\Desktop\monkeytalk\Hackathon" agent="AndroidEmulator v" runner="MonkeyTalk IDE v2.0.9_533 - 2014-09-26 15:13:11 MDT">
+    <suite  comp="Suite" id="MonkeyTalk.mts" action="Run" mods="%thinktime=500 %timeout=2000" raw="Suite MonkeyTalk.mts Run %thinktime=500 %timeout=2000" idx="1" start="1418307576117" stop="1418307667982" duration="91.865" result="ok" tests="9" errors="1" failures="1" skipped="0">
+        <test  comp="Test" id="FormRegularTest.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Test FormRegularTest.mt Run %thinktime=500 %timeout=2000" idx="2" start="1418307577553" stop="1418307583485" duration="5.932" result="ok">
+            <cmd  comp="Vars" id="*" action="Define" args="dropdown checkbox radiobutton slider" mods="%thinktime=500 %timeout=2000" raw="Vars * Define dropdown checkbox radiobutton slider %thinktime=500 %timeout=2000" idx="3" start="1418307579006" stop="1418307579006" duration="0.0" result="ok">
+            </cmd>
+            <cmd  comp="TabBar" id="*" action="select" args="forms" mods="%thinktime=500 %timeout=2000" raw="TabBar * select forms %thinktime=500 %timeout=2000" idx="4" start="1418307579006" stop="1418307579584" duration="0.578" result="ok">
+            </cmd>
+            <cmd  comp="ItemSelector" id="myDropdown" action="select" args="Carbon" mods="%thinktime=500 %timeout=2000" raw="ItemSelector myDropdown select Carbon %thinktime=500 %timeout=2000" idx="5" start="1418307579584" stop="1418307580115" duration="0.531" result="ok">
+            </cmd>
+            <cmd  comp="CheckBox" id="mySwitch" action="off" mods="%thinktime=500 %timeout=2000" raw="CheckBox mySwitch off %thinktime=500 %timeout=2000" idx="6" start="1418307580115" stop="1418307580693" duration="0.578" result="ok">
+            </cmd>
+            <cmd  comp="ButtonSelector" id="myRadios" action="select" args="B" mods="%thinktime=500 %timeout=2000" raw="ButtonSelector myRadios select B %thinktime=500 %timeout=2000" idx="7" start="1418307580693" stop="1418307581209" duration="0.516" result="ok">
+            </cmd>
+            <cmd  comp="Slider" id="mySlider" action="select" args="50" mods="%thinktime=500 %timeout=2000" raw="Slider mySlider select 50 %thinktime=500 %timeout=2000" idx="8" start="1418307581209" stop="1418307581740" duration="0.531" result="ok">
+            </cmd>
+            <cmd  comp="Slider" id="mySlider" action="Verify" args="50 value" mods="%thinktime=500 %timeout=2000" raw="Slider mySlider Verify 50 value %thinktime=500 %timeout=2000" idx="9" start="1418307581740" stop="1418307582287" duration="0.547" result="ok">
+            </cmd>
+            <cmd  comp="Label" id="*" action="Verify" args="&quot;Carbon | off | B | 50&quot;" mods="%thinktime=500 %timeout=2000" raw="Label * Verify &quot;Carbon | off | B | 50&quot; %thinktime=500 %timeout=2000" idx="10" start="1418307582287" stop="1418307582921" duration="0.634" result="ok">
+            </cmd>
+            <cmd  comp="TabBar" id="*" action="select" args="login" mods="%thinktime=500 %timeout=2000" raw="TabBar * select login %thinktime=500 %timeout=2000" idx="11" start="1418307582921" stop="1418307583485" duration="0.564" result="ok">
+            </cmd>
+        </test>
+        <test  comp="Test" id="LoginregularTest.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Test LoginregularTest.mt Run %thinktime=500 %timeout=2000" idx="12" start="1418307583485" stop="1418307594759" duration="11.274" result="ok">
+            <cmd  comp="TabBar" id="*" action="select" args="login" mods="%thinktime=500 %timeout=2000" raw="TabBar * select login %thinktime=500 %timeout=2000" idx="13" start="1418307584899" stop="1418307585508" duration="0.609" result="ok">
+            </cmd>
+            <cmd  comp="Input" id="username" action="tap" mods="%thinktime=500 %timeout=2000" raw="Input username tap %thinktime=500 %timeout=2000" idx="14" start="1418307585508" stop="1418307586024" duration="0.516" result="ok">
+            </cmd>
+            <cmd  comp="Input" id="username" action="enterText" args="user" mods="%thinktime=500 %timeout=2000" raw="Input username enterText user %thinktime=500 %timeout=2000" idx="15" start="1418307586024" stop="1418307586555" duration="0.531" result="ok">
+            </cmd>
+            <cmd  comp="Input" id="password" action="enterText" args="pass" mods="%thinktime=500 %timeout=2000" raw="Input password enterText pass %thinktime=500 %timeout=2000" idx="16" start="1418307586555" stop="1418307587117" duration="0.562" result="ok">
+            </cmd>
+            <cmd  comp="Button" id="LOGIN" action="Tap" mods="%thinktime=500 %timeout=2000" raw="Button LOGIN Tap %thinktime=500 %timeout=2000" idx="17" start="1418307587117" stop="1418307589164" duration="2.047" result="ok">
+            </cmd>
+            <cmd  comp="Label" id="*" action="Verify" args="&quot;Welcome, user!&quot;" mods="%thinktime=500 %timeout=2000" raw="Label * Verify &quot;Welcome, user!&quot; %thinktime=500 %timeout=2000" idx="18" start="1418307589164" stop="1418307592134" duration="2.97" result="ok">
+            </cmd>
+            <cmd  comp="Button" id="LOGOUT" action="Tap" mods="%thinktime=500 %timeout=2000" raw="Button LOGOUT Tap %thinktime=500 %timeout=2000" idx="19" start="1418307592134" stop="1418307594196" duration="2.062" result="ok">
+            </cmd>
+            <cmd  comp="TabBar" id="*" action="select" args="login" mods="%thinktime=500 %timeout=2000" raw="TabBar * select login %thinktime=500 %timeout=2000" idx="20" start="1418307594196" stop="1418307594759" duration="0.563" result="ok">
+            </cmd>
+        </test>
+        <test  comp="Test" id="HierarchyRegularTest.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Test HierarchyRegularTest.mt Run %thinktime=500 %timeout=2000" idx="21" start="1418307594759" stop="1418307603868" duration="9.109" result="ok">
+            <cmd  comp="TabBar" id="*" action="select" args="hierarchy" mods="%thinktime=500 %timeout=2000" raw="TabBar * select hierarchy %thinktime=500 %timeout=2000" idx="22" start="1418307596384" stop="1418307596915" duration="0.531" result="ok">
+            </cmd>
+            <cmd  comp="Table" id="elements" action="select" args="Beryllium" mods="%thinktime=500 %timeout=2000" raw="Table elements select Beryllium %thinktime=500 %timeout=2000" idx="23" start="1418307596915" stop="1418307598118" duration="1.203" result="ok">
+            </cmd>
+            <cmd  comp="Label" id="*" action="Verify" args="4" mods="%thinktime=500 %timeout=2000" raw="Label * Verify 4 %thinktime=500 %timeout=2000" idx="24" start="1418307598118" stop="1418307598712" duration="0.594" result="ok">
+            </cmd>
+            <cmd  comp="Label" id="*" action="Verify" args="Be" mods="%thinktime=500 %timeout=2000" raw="Label * Verify Be %thinktime=500 %timeout=2000" idx="25" start="1418307598712" stop="1418307599274" duration="0.562" result="ok">
+            </cmd>
+            <cmd  comp="Label" id="*" action="Verify" args="Beryllium" mods="%thinktime=500 %timeout=2000" raw="Label * Verify Beryllium %thinktime=500 %timeout=2000" idx="26" start="1418307599274" stop="1418307599868" duration="0.594" result="ok">
+            </cmd>
+            <cmd  comp="Device" id="*" action="back" mods="%thinktime=500 %timeout=2000" raw="Device * back %thinktime=500 %timeout=2000" idx="27" start="1418307599868" stop="1418307600415" duration="0.547" result="ok">
+            </cmd>
+            <cmd  comp="Table" id="elements" action="select" args="Carbon" mods="%thinktime=500 %timeout=2000" raw="Table elements select Carbon %thinktime=500 %timeout=2000" idx="28" start="1418307600415" stop="1418307601603" duration="1.188" result="ok">
+            </cmd>
+            <cmd  comp="Label" id="*" action="Verify" args="6" mods="%thinktime=500 %timeout=2000" raw="Label * Verify 6 %thinktime=500 %timeout=2000" idx="29" start="1418307601603" stop="1418307602196" duration="0.593" result="ok">
+            </cmd>
+            <cmd  comp="Label" id="*" action="Verify" args="C" mods="%thinktime=500 %timeout=2000" raw="Label * Verify C %thinktime=500 %timeout=2000" idx="30" start="1418307602212" stop="1418307602743" duration="0.531" result="ok">
+            </cmd>
+            <cmd  comp="Label" id="*" action="Verify" args="Carbon" mods="%thinktime=500 %timeout=2000" raw="Label * Verify Carbon %thinktime=500 %timeout=2000" idx="31" start="1418307602743" stop="1418307603321" duration="0.578" result="ok">
+            </cmd>
+            <cmd  comp="Device" id="*" action="back" mods="%thinktime=500 %timeout=2000" raw="Device * back %thinktime=500 %timeout=2000" idx="32" start="1418307603321" stop="1418307603868" duration="0.547" result="ok">
+            </cmd>
+        </test>
+        <test  comp="Test" id="WebRegularTest.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Test WebRegularTest.mt Run %thinktime=500 %timeout=2000" idx="33" start="1418307603868" stop="1418307617576" duration="13.708" result="ok">
+            <cmd  comp="TabBar" id="*" action="select" args="web" mods="%thinktime=500 %timeout=2000" raw="TabBar * select web %thinktime=500 %timeout=2000" idx="34" start="1418307605478" stop="1418307606042" duration="0.564" result="ok">
+            </cmd>
+            <cmd  comp="Input" id="userInput" action="enterText" args="Jeej" mods="%thinktime=500 %timeout=2000" raw="Input userInput enterText Jeej %thinktime=500 %timeout=2000" idx="35" start="1418307606042" stop="1418307606748" duration="0.706" result="ok">
+            </cmd>
+            <cmd  comp="TextArea" id="txtarea" action="enterText" args="&quot;een uitgebreide tekst&quot;" mods="%thinktime=500 %timeout=2000" raw="TextArea txtarea enterText &quot;een uitgebreide tekst&quot; %thinktime=500 %timeout=2000" idx="36" start="1418307606748" stop="1418307607456" duration="0.708" result="ok">
+            </cmd>
+            <cmd  comp="ItemSelector" id="Fruits" action="select" args="Banana" mods="%thinktime=500 %timeout=2000" raw="ItemSelector Fruits select Banana %thinktime=500 %timeout=2000" idx="37" start="1418307607456" stop="1418307608081" duration="0.625" result="ok">
+            </cmd>
+            <cmd  comp="RadioButtons" id="rbox" action="select" args="B" mods="%thinktime=500 %timeout=2000" raw="RadioButtons rbox select B %thinktime=500 %timeout=2000" idx="38" start="1418307608081" stop="1418307608722" duration="0.641" result="ok">
+            </cmd>
+            <cmd  comp="CheckBox" id="f" action="on" mods="%thinktime=500 %timeout=2000" raw="CheckBox f on %thinktime=500 %timeout=2000" idx="39" start="1418307608722" stop="1418307609315" duration="0.593" result="ok">
+            </cmd>
+            <cmd  comp="CheckBox" id="D" action="off" mods="%thinktime=500 %timeout=2000" raw="CheckBox D off %thinktime=500 %timeout=2000" idx="40" start="1418307609315" stop="1418307609909" duration="0.594" result="ok">
+            </cmd>
+            <cmd  comp="CheckBox" id="E" action="off" mods="%thinktime=500 %timeout=2000" raw="CheckBox E off %thinktime=500 %timeout=2000" idx="41" start="1418307609909" stop="1418307610519" duration="0.61" result="ok">
+            </cmd>
+            <cmd  comp="Button" id="GO!" action="tap" mods="%thinktime=500 %timeout=2000" raw="Button GO! tap %thinktime=500 %timeout=2000" idx="42" start="1418307610519" stop="1418307611121" duration="0.602" result="ok">
+            </cmd>
+            <script  comp="Script" id="WebCheck.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script WebCheck.mt Run %thinktime=500 %timeout=2000" idx="43" start="1418307611121" stop="1418307616998" duration="5.877" result="ok">
+                <cmd  comp="Input" id="userInput" action="Verify" args="Jeej value" mods="%thinktime=500 %timeout=2000" raw="Input userInput Verify Jeej value %thinktime=500 %timeout=2000" idx="44" start="1418307612700" stop="1418307613336" duration="0.636" result="ok">
+                </cmd>
+                <cmd  comp="TextArea" id="txtarea" action="Verify" args="&quot;een uitgebreide tekst&quot; value" mods="%thinktime=500 %timeout=2000" raw="TextArea txtarea Verify &quot;een uitgebreide tekst&quot; value %thinktime=500 %timeout=2000" idx="45" start="1418307613336" stop="1418307613948" duration="0.612" result="ok">
+                </cmd>
+                <cmd  comp="ItemSelector" id="Fruits" action="Verify" args="Banana value" mods="%thinktime=500 %timeout=2000" raw="ItemSelector Fruits Verify Banana value %thinktime=500 %timeout=2000" idx="46" start="1418307613948" stop="1418307614550" duration="0.602" result="ok">
+                </cmd>
+                <cmd  comp="RadioButtons" id="rbox" action="Verify" args="B value" mods="%thinktime=500 %timeout=2000" raw="RadioButtons rbox Verify B value %thinktime=500 %timeout=2000" idx="47" start="1418307614550" stop="1418307615144" duration="0.594" result="ok">
+                </cmd>
+                <cmd  comp="CheckBox" id="f" action="Verify" args="on value" mods="%thinktime=500 %timeout=2000" raw="CheckBox f Verify on value %thinktime=500 %timeout=2000" idx="48" start="1418307615144" stop="1418307615769" duration="0.625" result="ok">
+                </cmd>
+                <cmd  comp="CheckBox" id="D" action="Verify" args="off value" mods="%thinktime=500 %timeout=2000" raw="CheckBox D Verify off value %thinktime=500 %timeout=2000" idx="49" start="1418307615769" stop="1418307616389" duration="0.62" result="ok">
+                </cmd>
+                <cmd  comp="CheckBox" id="E" action="Verify" args="off value" mods="%thinktime=500 %timeout=2000" raw="CheckBox E Verify off value %thinktime=500 %timeout=2000" idx="50" start="1418307616389" stop="1418307616998" duration="0.609" result="ok">
+                </cmd>
+            </script>
+            <cmd  comp="TabBar" id="*" action="select" args="login" mods="%thinktime=500 %timeout=2000" raw="TabBar * select login %thinktime=500 %timeout=2000" idx="51" start="1418307616998" stop="1418307617561" duration="0.563" result="ok">
+            </cmd>
+        </test>
+        <test  comp="Test" id="LoginregularTestShortPass.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Test LoginregularTestShortPass.mt Run %thinktime=500 %timeout=2000" idx="52" start="1418307617576" stop="1418307627367" duration="9.791" result="ok">
+            <cmd  comp="TabBar" id="*" action="select" args="login" mods="%thinktime=500 %timeout=2000" raw="TabBar * select login %thinktime=500 %timeout=2000" idx="53" start="1418307619018" stop="1418307619568" duration="0.55" result="ok">
+            </cmd>
+            <cmd  comp="Input" id="username" action="enterText" args="baas" mods="%thinktime=500 %timeout=2000" raw="Input username enterText baas %thinktime=500 %timeout=2000" idx="54" start="1418307619568" stop="1418307620131" duration="0.563" result="ok">
+            </cmd>
+            <cmd  comp="Input" id="password" action="enterText" args="a" mods="%thinktime=500 %timeout=2000" raw="Input password enterText a %thinktime=500 %timeout=2000" idx="55" start="1418307620131" stop="1418307620646" duration="0.515" result="ok">
+            </cmd>
+            <cmd  comp="Button" id="LOGIN" action="Tap" mods="%thinktime=500 %timeout=2000" raw="Button LOGIN Tap %thinktime=500 %timeout=2000" idx="56" start="1418307620646" stop="1418307622695" duration="2.049" result="ok">
+            </cmd>
+            <cmd  comp="Label" id="*" action="Verify" args="&quot;Welcome, baas!&quot;" mods="%shouldfail=true %thinktime=500 %timeout=2000 %screenshotonerror=false" raw="Label * Verify &quot;Welcome, baas!&quot; %shouldfail=true %thinktime=500 %timeout=2000 %screenshotonerror=false" idx="57" start="1418307622695" stop="1418307626820" duration="4.125" result="ok">
+                <msg><![CDATA[expected failure : Expected "Welcome, baas!", but found [login, forms, hierarchy, web, Login, ?, baas, a, Sorry! Password must be 4 or more characters., LOGIN]]]>
+                </msg>
+            </cmd>
+            <cmd  comp="TabBar" id="*" action="select" args="login" mods="%thinktime=500 %timeout=2000" raw="TabBar * select login %thinktime=500 %timeout=2000" idx="58" start="1418307626820" stop="1418307627367" duration="0.547" result="ok">
+            </cmd>
+        </test>
+        <test  comp="Test" id="LoginregularTestShortUser.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Test LoginregularTestShortUser.mt Run %thinktime=500 %timeout=2000" idx="59" start="1418307627367" stop="1418307637333" duration="9.966" result="ok">
+            <cmd  comp="TabBar" id="*" action="select" args="login" mods="%thinktime=500 %timeout=2000" raw="TabBar * select login %thinktime=500 %timeout=2000" idx="60" start="1418307628960" stop="1418307629539" duration="0.579" result="ok">
+            </cmd>
+            <cmd  comp="Input" id="username" action="enterText" args="a" mods="%thinktime=500 %timeout=2000" raw="Input username enterText a %thinktime=500 %timeout=2000" idx="61" start="1418307629539" stop="1418307630070" duration="0.531" result="ok">
+            </cmd>
+            <cmd  comp="Input" id="password" action="enterText" args="baas" mods="%thinktime=500 %timeout=2000" raw="Input password enterText baas %thinktime=500 %timeout=2000" idx="62" start="1418307630070" stop="1418307630632" duration="0.562" result="ok">
+            </cmd>
+            <cmd  comp="Button" id="LOGIN" action="Tap" mods="%thinktime=500 %timeout=2000" raw="Button LOGIN Tap %thinktime=500 %timeout=2000" idx="63" start="1418307630632" stop="1418307632696" duration="2.064" result="ok">
+            </cmd>
+            <cmd  comp="Label" id="*" action="Verify" args="&quot;Welcome, a!&quot;" mods="%shouldfail=true %thinktime=500 %timeout=2000 %screenshotonerror=false" raw="Label * Verify &quot;Welcome, a!&quot; %shouldfail=true %thinktime=500 %timeout=2000 %screenshotonerror=false" idx="64" start="1418307632696" stop="1418307636739" duration="4.043" result="ok">
+                <msg><![CDATA[expected failure : Expected "Welcome, a!", but found [login, forms, hierarchy, web, Login, ?, a, baas, Sorry! Username must be 4 or more characters., LOGIN]]]>
+                </msg>
+            </cmd>
+            <cmd  comp="TabBar" id="*" action="select" args="login" mods="%thinktime=500 %timeout=2000" raw="TabBar * select login %thinktime=500 %timeout=2000" idx="65" start="1418307636739" stop="1418307637333" duration="0.594" result="ok">
+            </cmd>
+        </test>
+        <test  comp="Test" id="LoginregularTestEmptyUserPass.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Test LoginregularTestEmptyUserPass.mt Run %thinktime=500 %timeout=2000" idx="66" start="1418307637333" stop="1418307647153" duration="9.82" result="ok">
+            <cmd  comp="TabBar" id="*" action="select" args="login" mods="%thinktime=500 %timeout=2000" raw="TabBar * select login %thinktime=500 %timeout=2000" idx="67" start="1418307638826" stop="1418307639389" duration="0.563" result="ok">
+            </cmd>
+            <cmd  comp="Input" id="username" action="enterText" args="&quot;&quot;" mods="%thinktime=500 %timeout=2000" raw="Input username enterText &quot;&quot; %thinktime=500 %timeout=2000" idx="68" start="1418307639389" stop="1418307639904" duration="0.515" result="ok">
+            </cmd>
+            <cmd  comp="Input" id="password" action="enterText" args="&quot;&quot;" mods="%thinktime=500 %timeout=2000" raw="Input password enterText &quot;&quot; %thinktime=500 %timeout=2000" idx="69" start="1418307639904" stop="1418307640467" duration="0.563" result="ok">
+            </cmd>
+            <cmd  comp="Button" id="LOGIN" action="Tap" mods="%thinktime=500 %timeout=2000" raw="Button LOGIN Tap %thinktime=500 %timeout=2000" idx="70" start="1418307640467" stop="1418307642498" duration="2.031" result="ok">
+            </cmd>
+            <cmd  comp="Label" id="*" action="Verify" args="&quot;Welcome, !&quot;" mods="%shouldfail=true %thinktime=500 %timeout=2000 %screenshotonerror=false" raw="Label * Verify &quot;Welcome, !&quot; %shouldfail=true %thinktime=500 %timeout=2000 %screenshotonerror=false" idx="71" start="1418307642498" stop="1418307646606" duration="4.108" result="ok">
+                <msg><![CDATA[expected failure : Expected "Welcome, !", but found [login, forms, hierarchy, web, Login, ?, , Sorry! Username must be 4 or more characters., LOGIN]]]>
+                </msg>
+            </cmd>
+            <cmd  comp="TabBar" id="*" action="select" args="login" mods="%thinktime=500 %timeout=2000" raw="TabBar * select login %thinktime=500 %timeout=2000" idx="72" start="1418307646606" stop="1418307647153" duration="0.547" result="ok">
+            </cmd>
+        </test>
+        <test  comp="Test" id="WebRotateDataPersistance.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Test WebRotateDataPersistance.mt Run %thinktime=500 %timeout=2000" idx="73" start="1418307647153" stop="1418307664031" duration="16.878" screenshot="screenshots/screenshot_2014-12-11_152104.png" result="failure">
+            <cmd  comp="TabBar" id="*" action="select" args="web" mods="%thinktime=500 %timeout=2000" raw="TabBar * select web %thinktime=500 %timeout=2000" idx="74" start="1418307648106" stop="1418307648653" duration="0.547" result="ok">
+            </cmd>
+            <cmd  comp="Device" id="*" action="Rotate" args="portrait" mods="%thinktime=500 %timeout=2000" raw="Device * Rotate portrait %thinktime=500 %timeout=2000" idx="75" start="1418307648653" stop="1418307649435" duration="0.782" result="ok">
+            </cmd>
+            <script  comp="Script" id="WebRegularTest.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script WebRegularTest.mt Run %thinktime=500 %timeout=2000" idx="76" start="1418307649435" stop="1418307660000" duration="10.565" result="ok">
+                <cmd  comp="TabBar" id="*" action="select" args="web" mods="%thinktime=500 %timeout=2000" raw="TabBar * select web %thinktime=500 %timeout=2000" idx="77" start="1418307649528" stop="1418307650075" duration="0.547" result="ok">
+                </cmd>
+                <cmd  comp="Input" id="userInput" action="enterText" args="Jeej" mods="%thinktime=500 %timeout=2000" raw="Input userInput enterText Jeej %thinktime=500 %timeout=2000" idx="78" start="1418307650075" stop="1418307650794" duration="0.719" result="ok">
+                </cmd>
+                <cmd  comp="TextArea" id="txtarea" action="enterText" args="&quot;een uitgebreide tekst&quot;" mods="%thinktime=500 %timeout=2000" raw="TextArea txtarea enterText &quot;een uitgebreide tekst&quot; %thinktime=500 %timeout=2000" idx="79" start="1418307650794" stop="1418307651497" duration="0.703" result="ok">
+                </cmd>
+                <cmd  comp="ItemSelector" id="Fruits" action="select" args="Banana" mods="%thinktime=500 %timeout=2000" raw="ItemSelector Fruits select Banana %thinktime=500 %timeout=2000" idx="80" start="1418307651497" stop="1418307652115" duration="0.618" result="ok">
+                </cmd>
+                <cmd  comp="RadioButtons" id="rbox" action="select" args="B" mods="%thinktime=500 %timeout=2000" raw="RadioButtons rbox select B %thinktime=500 %timeout=2000" idx="81" start="1418307652115" stop="1418307652740" duration="0.625" result="ok">
+                </cmd>
+                <cmd  comp="CheckBox" id="f" action="on" mods="%thinktime=500 %timeout=2000" raw="CheckBox f on %thinktime=500 %timeout=2000" idx="82" start="1418307652740" stop="1418307653318" duration="0.578" result="ok">
+                </cmd>
+                <cmd  comp="CheckBox" id="D" action="off" mods="%thinktime=500 %timeout=2000" raw="CheckBox D off %thinktime=500 %timeout=2000" idx="83" start="1418307653318" stop="1418307653896" duration="0.578" result="ok">
+                </cmd>
+                <cmd  comp="CheckBox" id="E" action="off" mods="%thinktime=500 %timeout=2000" raw="CheckBox E off %thinktime=500 %timeout=2000" idx="84" start="1418307653896" stop="1418307654459" duration="0.563" result="ok">
+                </cmd>
+                <cmd  comp="Button" id="GO!" action="tap" mods="%thinktime=500 %timeout=2000" raw="Button GO! tap %thinktime=500 %timeout=2000" idx="85" start="1418307654459" stop="1418307655068" duration="0.609" result="ok">
+                </cmd>
+                <script  comp="Script" id="WebCheck.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script WebCheck.mt Run %thinktime=500 %timeout=2000" idx="86" start="1418307655068" stop="1418307659438" duration="4.37" result="ok">
+                    <cmd  comp="Input" id="userInput" action="Verify" args="Jeej value" mods="%thinktime=500 %timeout=2000" raw="Input userInput Verify Jeej value %thinktime=500 %timeout=2000" idx="87" start="1418307655162" stop="1418307655756" duration="0.594" result="ok">
+                    </cmd>
+                    <cmd  comp="TextArea" id="txtarea" action="Verify" args="&quot;een uitgebreide tekst&quot; value" mods="%thinktime=500 %timeout=2000" raw="TextArea txtarea Verify &quot;een uitgebreide tekst&quot; value %thinktime=500 %timeout=2000" idx="88" start="1418307655756" stop="1418307656334" duration="0.578" result="ok">
+                    </cmd>
+                    <cmd  comp="ItemSelector" id="Fruits" action="Verify" args="Banana value" mods="%thinktime=500 %timeout=2000" raw="ItemSelector Fruits Verify Banana value %thinktime=500 %timeout=2000" idx="89" start="1418307656334" stop="1418307656959" duration="0.625" result="ok">
+                    </cmd>
+                    <cmd  comp="RadioButtons" id="rbox" action="Verify" args="B value" mods="%thinktime=500 %timeout=2000" raw="RadioButtons rbox Verify B value %thinktime=500 %timeout=2000" idx="90" start="1418307656959" stop="1418307657584" duration="0.625" result="ok">
+                    </cmd>
+                    <cmd  comp="CheckBox" id="f" action="Verify" args="on value" mods="%thinktime=500 %timeout=2000" raw="CheckBox f Verify on value %thinktime=500 %timeout=2000" idx="91" start="1418307657584" stop="1418307658235" duration="0.651" result="ok">
+                    </cmd>
+                    <cmd  comp="CheckBox" id="D" action="Verify" args="off value" mods="%thinktime=500 %timeout=2000" raw="CheckBox D Verify off value %thinktime=500 %timeout=2000" idx="92" start="1418307658235" stop="1418307658844" duration="0.609" result="ok">
+                    </cmd>
+                    <cmd  comp="CheckBox" id="E" action="Verify" args="off value" mods="%thinktime=500 %timeout=2000" raw="CheckBox E Verify off value %thinktime=500 %timeout=2000" idx="93" start="1418307658844" stop="1418307659438" duration="0.594" result="ok">
+                    </cmd>
+                </script>
+                <cmd  comp="TabBar" id="*" action="select" args="login" mods="%thinktime=500 %timeout=2000" raw="TabBar * select login %thinktime=500 %timeout=2000" idx="94" start="1418307659438" stop="1418307660000" duration="0.562" result="ok">
+                </cmd>
+            </script>
+            <cmd  comp="Device" id="*" action="Rotate" args="Landscape" mods="%thinktime=500 %timeout=2000" raw="Device * Rotate Landscape %thinktime=500 %timeout=2000" idx="95" start="1418307660000" stop="1418307660797" duration="0.797" result="ok">
+            </cmd>
+            <script  comp="Script" id="WebCheck.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script WebCheck.mt Run %thinktime=500 %timeout=2000" idx="96" start="1418307660797" stop="1418307664031" duration="3.234" screenshot="screenshots/screenshot_2014-12-11_152104.png" result="failure">
+                <cmd  comp="Input" id="userInput" action="Verify" args="Jeej value" mods="%thinktime=500 %timeout=2000" raw="Input userInput Verify Jeej value %thinktime=500 %timeout=2000" idx="97" start="1418307661063" stop="1418307664031" duration="2.968" screenshot="screenshots/screenshot_2014-12-11_152104.png" result="failure">
+                    <msg><![CDATA[Unable to find Input(userInput)]]>
+                    </msg>
+                </cmd>
+            </script>
+        </test>
+        <test  comp="Test" id="LoginRotateOnLogin.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Test LoginRotateOnLogin.mt Run %thinktime=500 %timeout=2000" idx="98" start="1418307664031" stop="1418307667982" duration="3.951" result="error">
+            <cmd  comp="TabBar" id="*" action="select" args="login" mods="%thinktime=500 %timeout=2000" raw="TabBar * select login %thinktime=500 %timeout=2000" idx="99" start="1418307664125" stop="1418307664781" duration="0.656" result="ok">
+            </cmd>
+            <cmd  comp="Device" id="*" action="Rotate" args="portrait" mods="%thinktime=500 %timeout=2000" raw="Device * Rotate portrait %thinktime=500 %timeout=2000" idx="100" start="1418307664781" stop="1418307665547" duration="0.766" result="ok">
+            </cmd>
+            <cmd  comp="Input" id="username" action="enterText" args="Test" mods="%thinktime=500 %timeout=2000" raw="Input username enterText Test %thinktime=500 %timeout=2000" idx="101" start="1418307665547" stop="1418307666078" duration="0.531" result="ok">
+            </cmd>
+            <cmd  comp="Input" id="password" action="enterText" args="Test2" mods="%thinktime=500 %timeout=2000" raw="Input password enterText Test2 %thinktime=500 %timeout=2000" idx="102" start="1418307666078" stop="1418307666610" duration="0.532" result="ok">
+            </cmd>
+            <cmd  comp="Button" id="LOGIN" action="Tap" mods="%thinktime=500 %timeout=2000" raw="Button LOGIN Tap %thinktime=500 %timeout=2000" idx="103" start="1418307666610" stop="1418307667172" duration="0.562" result="ok">
+            </cmd>
+            <cmd  comp="Device" id="*" action="Rotate" args="Landscape" mods="%thinktime=500 %timeout=2000" raw="Device * Rotate Landscape %thinktime=500 %timeout=2000" idx="104" start="1418307667172" stop="1418307667982" duration="0.81" result="error">
+                <msg><![CDATA[Unable to send command to http://localhost:16862/fonemonkey: Connection reset]]>
+                </msg>
+            </cmd>
+        </test>
+    </suite>
+</detail>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<detail  generated="2014-12-11 11:03:07.803 CET" projectPath="C:\Users\klaas\Desktop\monkeytalk\Hackathon" agent="AndroidEmulator v2.0.1_257 - 2014-01-29 08:31:55 MST" runner="MonkeyTalk IDE v2.0.9_533 - 2014-09-26 15:13:11 MDT">
+    <script  comp="Script" id="probeersel.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script probeersel.mt Run %thinktime=500 %timeout=2000" idx="1" start="1418292182568" stop="1418292187662" duration="5.094" screenshot="screenshots/screenshot_2014-12-11_110307.png" result="error">
+        <cmd  comp="Input" id="userInput" action="tap" args="Hello!" mods="%thinktime=500 %timeout=2000" raw="Input userInput tap Hello! %thinktime=500 %timeout=2000" idx="2" start="1418292182694" stop="1418292183709" duration="1.015" result="ok">
+            <msg><![CDATA[Label with monkeyID mySymbol is being clipped. Label with monkeyID myValue is being clipped. Label with monkeyID myValue is being clipped. Label with monkeyID myValue is being clipped. Label with monkeyID myValue is being clipped. Label with monkeyID myValue is being clipped. View with monkeyID Gereed is being clipped. View with monkeyID Gereed is being clipped. ]]>
+            </msg>
+        </cmd>
+        <cmd  comp="Input" id="userInput" action="enterText" args="Hello!wd" mods="%thinktime=500 %timeout=2000" raw="Input userInput enterText Hello!wd %thinktime=500 %timeout=2000" idx="3" start="1418292183709" stop="1418292184553" duration="0.844" result="ok">
+        </cmd>
+        <cmd  comp="ItemSelector" id="Fruits" action="select" args="Klaas" mods="%thinktime=500 %timeout=2000" raw="ItemSelector Fruits select Klaas %thinktime=500 %timeout=2000" idx="4" start="1418292184553" stop="1418292187662" duration="3.109" screenshot="screenshots/screenshot_2014-12-11_110307.png" result="error">
+            <msg><![CDATA[java.lang.NullPointerException]]>
+            </msg>
+        </cmd>
+    </script>
+</detail>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<detail  generated="2014-12-11 10:27:45.795 CET" projectPath="C:\Users\klaas\Desktop\monkeytalk\Hackathon" agent="AndroidEmulator v2.0.1_257 - 2014-01-29 08:31:55 MST" runner="MonkeyTalk IDE v2.0.9_533 - 2014-09-26 15:13:11 MDT">
+    <script  comp="Script" id="script1.mt" action="Run" mods="%thinktime=500 %timeout=2000" raw="Script script1.mt Run %thinktime=500 %timeout=2000" idx="1" start="1418290058466" stop="1418290064076" duration="5.61" result="ok">
+        <cmd  comp="Input" id="username" action="enterText" args="fjdvdh" mods="%thinktime=500 %timeout=2000" raw="Input username enterText fjdvdh %thinktime=500 %timeout=2000" idx="2" start="1418290059998" stop="1418290061373" duration="1.375" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="LOGIN" action="tap" mods="%thinktime=500 %timeout=2000" raw="Button LOGIN tap %thinktime=500 %timeout=2000" idx="3" start="1418290061373" stop="1418290061888" duration="0.515" result="ok">
+        </cmd>
+        <cmd  comp="Input" id="password" action="tap" mods="%thinktime=500 %timeout=2000" raw="Input password tap %thinktime=500 %timeout=2000" idx="4" start="1418290061888" stop="1418290062420" duration="0.532" result="ok">
+        </cmd>
+        <cmd  comp="Input" id="password" action="enterText" args="gjwc" mods="%thinktime=500 %timeout=2000" raw="Input password enterText gjwc %thinktime=500 %timeout=2000" idx="5" start="1418290062420" stop="1418290063013" duration="0.593" result="ok">
+        </cmd>
+        <cmd  comp="Button" id="LOGIN" action="tap" mods="%thinktime=500 %timeout=2000" raw="Button LOGIN tap %thinktime=500 %timeout=2000" idx="6" start="1418290063013" stop="1418290063560" duration="0.547" result="ok">
+        </cmd>
+        <cmd  comp="Input" id="username" action="enterText" args="&quot;&quot;" mods="%thinktime=500 %timeout=2000" raw="Input username enterText &quot;&quot; %thinktime=500 %timeout=2000" idx="7" start="1418290063560" stop="1418290064076" duration="0.516" result="ok">
+        </cmd>
+    </script>
+</detail>
